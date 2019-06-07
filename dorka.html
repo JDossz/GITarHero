@@ -14,6 +14,45 @@
             p {font-size: 16px;}
             body {background-color:rgba(29, 133, 231, 0.822);}
             .active {color: blue}
+            td {text-align: center;
+                vertical-align: top;
+                padding: 10px
+                }
+            /*
+            #container {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                align-items: center;
+                width: 100%;
+                }
+            #bal {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                width: 33%;
+                align-items: center;
+                text-align: center;
+                font-size: 10pt
+                }
+            #kozep {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                width: 33%;
+                align-items: center;
+                text-align: center;
+                font-size: 10pt
+                }
+            #jobb {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                align-items: center;
+                text-align: center;
+                font-size: 10pt
+                }
+            */
         </style>
 
     </head>
@@ -34,13 +73,100 @@
         <main>
             <h1>Szadista gyermekdalok</h1>
 
-            <div>
-                <img src="/img/csigabiga.jpg" alt="csigabiga">
-                <p>Csiga-biga, gyere ki! Ég a házad ideki. Kapsz tejet, vajat, holnapra is marad.</p>
-            </div>
-        </main>
-        <aside>
+            <!--style="overflow-x:auto;" - responsive table - display a horizontal scroll bar if the screen is too small to display the full content.-->
+            <!--<div style="overflow-x:auto;">-->
+                <table style="margin: auto">
+                    <tbody>
+                        <tr name="elsoSor">
+                            <td>
+                                <img src="/img/boci-boci-tarka.jpg" alt="boci, boci tarka">
+                            </td>
+                            <td>
+                                <img src="/img/katalinka-szallj-el.jpg" alt="katalinka">
+                            </td>
+                            <td>
+                                <img src="img/cd663d5576d8828c739ea9d09b02888d.png" alt="ember">
+                            </td>
+                        </tr>
+                        
+                        <tr name="masodikSor">
+                            <td>
+                                <div>
+                                    <p>Boci, boci tarka,</p>
+                                    <p>Se füle, se farka,</p>
+                                    <p>Oda megyünk lakni,</p>
+                                    <p>Ahol tejet kapni.</p>
+                                    <p>Boci, boci megfázott,</p>
+                                    <p>Varrtam neki nadrágot,</p>
+                                    <p>Nem akarta felvenni,</p>
+                                    <p>Ágyba kellett fektetni.</p>
+                                </div>
+                            </td>
+                            <td>
+                                <div>
+                                    <p>Katalinka szállj el,</p>
+                                    <p>jönnek a törökök,</p>
+                                    <p>sós kútba tesznek,</p>
+                                    <p>onnan is kivesznek.</p>
+                                    <p>Kerék alá tesznek,</p>
+                                    <p>onnan is kivesznek.</p>
+                                    <p>Imhol jönnek a törökök,</p>
+                                    <p>mindjárt agyonlőnek!</p>
+                                </div>
+                            </td>
+                            <td>
+                                <div>
+                                    <p>Egyszer volt egy ember,</p>
+                                    <p>Szakálla volt kender.</p>
+                                    <p>Meggyulladt a kender,</p>
+                                    <p>Elszaladt az ember.</p>
+                                    <p>Közel volt a tenger,</p>
+                                    <p>Belefúlt az ember!</p>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr name="harmadikSor">
+                            <td>
+                                <img src="/img/csigabiga.jpg" alt="csigabiga">
+                            </td>
+                            <td>
+                                <img src="/img/sussfelnap.jpg" alt="süss fel nap">
+                            </td>
+                            <td>
+                                <img src="/img/grave_7.gif" alt="temetés">
+                            </td>
+                        </tr>
+                            
+                        <tr name="negyedikSor">
+                            <td>
+                                <div>
+                                    <p>Csiga-biga, gyere ki!</p>
+                                    <p>Ég a házad ideki.</p>
+                                    <p>Kapsz tejet, vajat,</p>
+                                    <p>holnapra is marad.</p>
+                                </div>
+                            </td>
+                            <td>
+                                <div>
+                                    <p>Süss fel nap, fényes nap,</p>
+                                    <p>kertek alatt a ludaink megfagynak.</p>
+                                </div>
+                            </td>
+                            <td>
+                                <div>
+                                    <p>Sírás-nevetés!</p>
+                                    <p>Hónap lesz a temetés.</p>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            <!--</div>-->
 
+        </main>
+
+        <aside>
+            <a href="http://mek.oszk.hu/06200/06234/html/">Magyar Népdalok</a>
         </aside>
         <footer>
 
