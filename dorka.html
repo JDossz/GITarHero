@@ -14,9 +14,18 @@
             p {font-size: 16px;}
             body {background-color:rgba(29, 133, 231, 0.822);}
             .active {color: blue}
-            td {text-align: center;
+
+            /*nem rajzolja ki a keretet, erre még rá kell nézni*/
+            #bevezeto {
+                margin: auto;
+                padding: 5px;
+                border: 10px black;
+                }
+            .bevezeto {font-size: 20px;}
+            td {
+                text-align: center;
                 vertical-align: top;
-                padding: 10px
+                padding: 10px;
                 }
             /*
             #container {
@@ -72,6 +81,16 @@
         </nav>
         <main>
             <h1>Szadista gyermekdalok</h1>
+
+            <div id="bevezeto">
+                <p class="bevezeto">
+                    A gyermekek óvodai, iskolai illetve családi körben többféle zenei stílust is hallanak, és sokszor nem a legértékesebbek közül.
+                    Fogékonyságuknak, kíváncsiságuknak köszönhetően megszeretnek és meg is tanul bármilyen dallamot.
+                    A magyar népzenében számtalan olyan gyermekdal, mondóka, kiszámoló létezik, melyek szövege és képi világa meglehetősen sötét, néha egyenesen morbid.
+                    Gyermeki fejjel ezek sokszor fel sem tűnnek, nem tulajdonítunk nekik jelentőséget, nem látunk bennük kivetnivalót.
+                    Az ember hosszú évekig énekelgethetni kedvenc gyerekkori rigmusait, és talán soha nem is tudatosul benne, milyen szörnyűségekről énekel.
+                </p>
+            </div>
 
             <!--style="overflow-x:auto;" - responsive table - display a horizontal scroll bar if the screen is too small to display the full content.-->
             <!--<div style="overflow-x:auto;">-->
