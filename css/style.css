@@ -1,0 +1,36 @@
+#navigation {
+    list-style-type: none;
+    text-align: center;
+    /* overflow: hidden; */
+    background-color: orange;
+    font-size: 20px;
+    margin: 0px;
+}
+
+/* Eltávolítja a bullet pontokat az UNORDERED LIST listaelemek elől, illetve a margint és paddinget. Középre helyezi az elemeket. */
+
+.nav-list {
+    display: inline-block;
+    padding: 5px;
+    border-right: 1px solid white;
+}
+
+/* Vízszintesen egymás mellé helyezi az elemeket. A border right 1px széles határt húz a jobb oldalra.*/
+
+.nav-list:last-child {
+    border-right: none;
+}
+
+/* A listaelemek utolsó eleme után nem húz határt. */
+
+
+.nav-anchor {
+    display: block;
+    color: whitesmoke;
+    text-decoration: none;
+
+}
+
+.nav-anchor:hover {
+    background-color: coral cursor: pointer;
+}
