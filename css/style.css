@@ -35,5 +35,6 @@
 }
 
 .nav-anchor:hover {
-    background-color: coral cursor: pointer;
+    background-color: coral;
+    cursor: pointer;
 }
