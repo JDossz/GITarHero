@@ -1,3 +1,6 @@
+/*A közös fejléckép formázása*/
+#topImage {width: 100%;}
+
 #navigation {
     list-style-type: none;
     text-align: center;
