@@ -48,6 +48,10 @@ footer {
     align-items: center;
 }
 
+.footer-pic {
+    width: 200px;
+    height: 133px;
+}
 
 .left-side .rigth-side {
     margin: auto;
