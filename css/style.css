@@ -237,3 +237,17 @@ footer {
     font-weight: bold;
     padding: 10px;
 }
+
+/*skth formázás*/
+.music-round {
+    display: block;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ukulele {
+    border: 0;
+    width="435";
+    height="236";
+}
