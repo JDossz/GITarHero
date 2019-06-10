@@ -38,6 +38,7 @@
 }
 
 h1 {
+    text-align: center;
     font-size: 40px;
 }
 
@@ -88,15 +89,9 @@ p {
 
 
 /*Dorka saját formázása*/
-.JDbevezeto p {
-    font-size: 16px;
-}
-
-/* Nem rajzolja ki a kívánt keretet, erre még rá kell nézni */
-#JDbevezeto {
-    margin: auto;
-    padding: 5px;
-    border: 10px black;
+.JDbevezeto {
+    font-size: 20px;
+    margin-bottom: 20pt
 }
 
 .flex-containerJD {
@@ -130,24 +125,13 @@ p {
         flex: 50%;
         max-width: 50%;
     }
- }
+}
  
- @media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
     .flex-element-JD {
         flex: 100%;
         max-width: 100%;
     }
- }
-
-.link-JD a:link {
-    color: orange;
-}
-.link-JD a:visited {
-    color: orangered;
-}
-.link-JD a:hover {
-    color: wheat;
-    font-size: 20pt;
 }
 
 
@@ -169,6 +153,7 @@ footer {
 }
 
 footer {
+    color: black;
     background-color: beige;
     text-align: center;
 }
