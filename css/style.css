@@ -87,6 +87,20 @@ p {
     text-align: center;
 }
 
+@media screen and (max-width: 850px) {
+    .flex-containerTomi div {
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .flex-containerTomi div {
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
 
 /*Dorka saját formázása*/
 .JDbevezeto {
@@ -182,7 +196,8 @@ footer {
     text-decoration: none;
 }
 
-@media screen and (max-width: 400px) {
+
+@media screen and (max-width: 500px) {
     footer {
         flex-direction: column;
     }
