@@ -13,13 +13,6 @@
     <title>Szadista gyermekdalok</title>
 
     <style>
-        h1 {
-            font-size: 40px;
-        }
-
-        p {
-            font-size: 16px;
-        }
 
         body {
             background-color: rgba(29, 133, 231, 0.822);
@@ -29,38 +22,10 @@
             color: blue
         }
 
-        /*nem rajzolja ki a keretet, erre még rá kell nézni*/
-        #bevezeto {
-            margin: auto;
-            padding: 5px;
-            border: 10px black;
-        }
-
-        .bevezeto {
-            font-size: 20px;
-        }
-
-        td {
-            text-align: center;
-            vertical-align: top;
-            padding: 10px;
-        }
-
         aside {
             margin: 15px;
             padding: 10px;
             font-size: 16pt;
-        }
-
-        a .JD :link {
-            color: orange;
-        }
-        a .JD :visited {
-            color: orangered;
-        }
-        a .JD :hover {
-            color: wheat;
-            font-size: 20pt;
         }
 
         /*
@@ -99,6 +64,7 @@
                 }
             */
     </style>
+    <style src="/css/style.css"></style>
 
 </head>
 
@@ -125,8 +91,8 @@
     <main>
         <h1>Szadista gyermekdalok</h1>
 
-        <div id="bevezeto">
-            <p class="bevezeto">
+        <div id="JDbevezeto">
+            <p class="JDbevezeto">
                 A gyermekek óvodai, iskolai illetve családi körben többféle zenei stílust is hallanak, és sokszor nem a legértékesebbek közül.
                 Fogékonyságuknak, kíváncsiságuknak köszönhetően megszeretnek és meg is tanul bármilyen dallamot.
                 A magyar népzenében számtalan olyan gyermekdal, mondóka, kiszámoló létezik, melyek szövege és képi világa meglehetősen sötét, néha egyenesen morbid.
@@ -135,106 +101,80 @@
             </p>
         </div>
 
-        <!--style="overflow-x:auto;" - responsive table - display a horizontal scroll bar if the screen is too small to display the full content.-->
-        <!--<div style="overflow-x:auto;">-->
-        <table style="margin: auto">
-            <tbody>
-                <tr name="elsoSor">
-                    <td>
-                        <img src="/img/boci-boci-tarka.jpg"
-                             alt="boci, boci tarka">
-                    </td>
-                    <td>
-                        <img src="/img/katalinka-szallj-el.jpg"
-                             alt="katalinka">
-                    </td>
-                    <td>
-                        <img src="img/cd663d5576d8828c739ea9d09b02888d.png"
-                             alt="ember">
-                    </td>
-                </tr>
+        <div class="flex-containerJD">
 
-                <tr name="masodikSor">
-                    <td>
-                        <div>
-                            <p>Boci, boci tarka,</p>
-                            <p>Se füle, se farka,</p>
-                            <p>Oda megyünk lakni,</p>
-                            <p>Ahol tejet kapni.</p>
-                            <p>Boci, boci megfázott,</p>
-                            <p>Varrtam neki nadrágot,</p>
-                            <p>Nem akarta felvenni,</p>
-                            <p>Ágyba kellett fektetni.</p>
-                        </div>
-                    </td>
-                    <td>
-                        <div>
-                            <p>Katalinka szállj el,</p>
-                            <p>jönnek a törökök,</p>
-                            <p>sós kútba tesznek,</p>
-                            <p>onnan is kivesznek.</p>
-                            <p>Kerék alá tesznek,</p>
-                            <p>onnan is kivesznek.</p>
-                            <p>Imhol jönnek a törökök,</p>
-                            <p>mindjárt agyonlőnek!</p>
-                        </div>
-                    </td>
-                    <td>
-                        <div>
-                            <p>Egyszer volt egy ember,</p>
-                            <p>Szakálla volt kender.</p>
-                            <p>Meggyulladt a kender,</p>
-                            <p>Elszaladt az ember.</p>
-                            <p>Közel volt a tenger,</p>
-                            <p>Belefúlt az ember!</p>
-                        </div>
-                    </td>
-                </tr>
-                <tr name="harmadikSor">
-                    <td>
-                        <img src="/img/csigabiga.jpg"
-                             alt="csigabiga">
-                    </td>
-                    <td>
-                        <img src="/img/sussfelnap.jpg"
-                             alt="süss fel nap">
-                    </td>
-                    <td>
-                        <img src="/img/grave_7.gif"
-                             alt="temetés">
-                    </td>
-                </tr>
-
-                <tr name="negyedikSor">
-                    <td>
-                        <div>
-                            <p>Csiga-biga, gyere ki!</p>
-                            <p>Ég a házad ideki.</p>
-                            <p>Kapsz tejet, vajat,</p>
-                            <p>holnapra is marad.</p>
-                        </div>
-                    </td>
-                    <td>
-                        <div>
-                            <p>Süss fel nap, fényes nap,</p>
-                            <p>kertek alatt a ludaink megfagynak.</p>
-                        </div>
-                    </td>
-                    <td>
-                        <div>
-                            <p>Sírás-nevetés!</p>
-                            <p>Hónap lesz a temetés.</p>
-                        </div>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-        <!--</div>-->
+            <div class="flex-element-JD">
+                <img class="pic-JD"
+                     src="/img/boci-boci-tarka.jpg"
+                     alt="boci, boci tarka">
+                <p>Boci, boci tarka,</p>
+                <p>Se füle, se farka,</p>
+                <p>Oda megyünk lakni,</p>
+                <p>Ahol tejet kapni.</p>
+                <p>Boci, boci megfázott,</p>
+                <p>Varrtam neki nadrágot,</p>
+                <p>Nem akarta felvenni,</p>
+                <p>Ágyba kellett fektetni.</p>
+            </div>
+        
+            <div class="flex-element-JD">
+                <img class="pic-JD"
+                     src="/img/katalinka-szallj-el.jpg"
+                     alt="katalinka">
+                <p>Katalinka szállj el,</p>
+                <p>jönnek a törökök,</p>
+                <p>sós kútba tesznek,</p>
+                <p>onnan is kivesznek.</p>
+                <p>Kerék alá tesznek,</p>
+                <p>onnan is kivesznek.</p>
+                <p>Imhol jönnek a törökök,</p>
+                <p>mindjárt agyonlőnek!</p>
+            </div>
+        
+            <div class=".flex-element-JD">
+                <img class="pic-JD"
+                     src="/img/cd663d5576d8828c739ea9d09b02888d.png"
+                     alt="ember">
+                <p>Egyszer volt egy ember,</p>
+                <p>Szakálla volt kender.</p>
+                <p>Meggyulladt a kender,</p>
+                <p>Elszaladt az ember.</p>
+                <p>Közel volt a tenger,</p>
+                <p>Belefúlt az ember!</p>
+            </div>
+        
+            <div class=".flex-element-JD">
+                <img class="pic-JD"
+                     src="/img/csigabiga.jpg"
+                     alt="csigabiga">
+                <p>Csiga-biga, gyere ki!</p>
+                <p>Ég a házad ideki.</p>
+                <p>Kapsz tejet, vajat,</p>
+                <p>holnapra is marad.</p>
+            </div>
+        
+            <div class=".flex-element-JD">
+                <img class="pic-JD"
+                     src="/img/sussfelnap.jpg"
+                     alt="süss fel nap">
+                <p>Süss fel nap, fényes nap,</p>
+                <p>kertek alatt a ludaink megfagynak.</p>
+            </div>
+        
+            <div class=".flex-element-JD">
+                <img class="pic-JD"
+                     src="/img/grave_7.gif"
+                     alt="temetés">
+                <p>Sírás-nevetés!</p>
+                <p>Hónap lesz a temetés.</p>
+            </div>
+        
+        </div>
 
     </main>
 
     <aside>
-        <a class="JD" href="http://mek.oszk.hu/06200/06234/html/">MEK: Magyar Népdalok</a>
+        <a class="link-JD" href="http://mek.oszk.hu/06200/06234/html/">MEK: Magyar Népdalok</a>
     </aside>
 
     <footer>

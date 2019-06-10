@@ -13,7 +13,6 @@
 }
 
 /* Eltávolítja a bullet pontokat az UNORDERED LIST listaelemek elől, illetve a margint és paddinget. Középre helyezi az elemeket. */
-
 .nav-list {
     display: inline-block;
     padding: 5px;
@@ -21,14 +20,11 @@
 }
 
 /* Vízszintesen egymás mellé helyezi az elemeket. A border right 1px széles határt húz a jobb oldalra.*/
-
-.nav-list:last-child {
+.nav-list:lasit-child {
     border-right: none;
 }
 
 /* A listaelemek utolsó eleme után nem húz határt. */
-
-
 .nav-anchor {
     display: block;
     color: whitesmoke;
@@ -41,10 +37,21 @@
     cursor: pointer;
 }
 
+h1 {
+    font-size: 40px;
+}
+
 h2 {
     text-align: center;
 }
 
+p {
+    font-size: 16px;
+}
+
+
+
+/*Tomi saját formázása*/
 .article-music {
     text-align: center;
 }
@@ -78,6 +85,71 @@ h2 {
 .flex-containerTomi div p {
     text-align: center;
 }
+
+
+/*Dorka saját formázása*/
+.JDbevezeto p {
+    font-size: 16px;
+}
+
+/* Nem rajzolja ki a kívánt keretet, erre még rá kell nézni */
+#JDbevezeto {
+    margin: auto;
+    padding: 5px;
+    border: 10px black;
+}
+
+.flex-containerJD {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.flex-containerJD div {
+    flex: 33%;
+}
+
+.flex-element-JD {
+    flex: 33%;
+    max-width: 33%;
+}
+
+.pic-JD {
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    height: 200pt;
+}
+
+.flex-element-JD p {
+    text-align: center;
+}
+
+@media screen and (max-width: 1000px) {
+    .flex-element-JD {
+        flex: 50%;
+        max-width: 50%;
+    }
+ }
+ 
+ @media screen and (max-width: 600px) {
+    .flex-element-JD {
+        flex: 100%;
+        max-width: 100%;
+    }
+ }
+
+.link-JD a:link {
+    color: orange;
+}
+.link-JD a:visited {
+    color: orangered;
+}
+.link-JD a:hover {
+    color: wheat;
+    font-size: 20pt;
+}
+
 
 
 footer {
