@@ -126,7 +126,7 @@ p {
         max-width: 50%;
     }
 }
- 
+
 @media screen and (max-width: 600px) {
     .flex-element-JD {
         flex: 100%;
@@ -186,4 +186,35 @@ footer {
     footer {
         flex-direction: column;
     }
+}
+
+/* Kriszta saját formázása */
+#mainBodyKriszta {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#pageTitleKriszta {
+    text-align: center;
+}
+
+.otherLogo {
+    height: 100px;
+    width: auto;
+}
+
+.videosBlizzard {
+    height: 360px;
+    width: 640px;
+    border: 0px;
+}
+
+#phil-winds {
+    height: auto;
+    width: 640px;
+}
+
+.vgl-captions {
+    font-weight: bold;
+    padding: 10px;
 }
