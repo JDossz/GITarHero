@@ -41,6 +41,14 @@
     cursor: pointer;
 }
 
+h2 {
+    text-align: center;
+}
+
+.article-music {
+    text-align: center;
+}
+
 #music-pic {
     display: block;
     border-radius: 20px;
@@ -48,6 +56,29 @@
     margin-right: auto;
     width: 40%;
 }
+
+.flex-containerTomi {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.music-styles-pic {
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+}
+
+.flex-containerTomi div {
+    flex: 25%;
+}
+
+.flex-containerTomi div p {
+    text-align: center;
+}
+
 
 footer {
     display: flex;
@@ -92,4 +123,10 @@ footer {
 
 .footer-anchor {
     text-decoration: none;
+}
+
+@media screen and (max-width: 400px) {
+    footer {
+        flex-direction: column;
+    }
 }
