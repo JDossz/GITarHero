@@ -153,10 +153,6 @@ button {
     text-align: center;
 }
 
-.morbid {
-    color: brown;
-}
-
 @media screen and (max-width: 1000px) {
     .flex-element-JD {
         flex: 50%;
