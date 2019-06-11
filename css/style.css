@@ -127,6 +127,13 @@ body {
     max-width: 33%;
 }
 
+button {
+    background-color: brown;
+    color: wheat;
+    font-size: 16pt;
+    margin-bottom: 50px;
+}
+
 .video-JD {
     display: block;
     margin: auto;
