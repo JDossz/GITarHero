@@ -127,11 +127,19 @@ body {
     max-width: 33%;
 }
 
+.video-JD {
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    width: 300pt;
+    height: 165pt;
+}
+
 .pic-JD {
     display: block;
     margin: auto;
     border-radius: 10px;
-    height: 220pt;
+    height: 180pt;
 }
 
 .flex-element-JD p {
